@@ -5,9 +5,9 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var solution = new Solution();
+        var dero = new ElementRemover();
+        dero.RemoveElement(new int[] {3, 2, 2, 3}, 3);
 
-        var x = solution.IsHappy(2);
-        Debug.WriteLine(x);
+  
     }
 }
